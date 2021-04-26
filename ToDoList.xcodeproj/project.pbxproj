@@ -56,15 +56,47 @@
 		FAD71AFF263708A3006C9B38 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				FAD71B00263708A3006C9B38 /* AppDelegate.swift */,
-				FAD71B02263708A3006C9B38 /* SceneDelegate.swift */,
-				FAD71B04263708A3006C9B38 /* ViewController.swift */,
-				FAD71B06263708A3006C9B38 /* Main.storyboard */,
-				FAD71B09263708A5006C9B38 /* Assets.xcassets */,
-				FAD71B0B263708A5006C9B38 /* LaunchScreen.storyboard */,
-				FAD71B0E263708A5006C9B38 /* Info.plist */,
+				FAD71B15263708C4006C9B38 /* Supporting */,
+				FAD71B17263708D0006C9B38 /* ViewControllers */,
+				FAD71B19263708DD006C9B38 /* Storyboards */,
+				FAD71B1B263708EB006C9B38 /* Resources */,
 			);
 			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		FAD71B15263708C4006C9B38 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				FAD71B00263708A3006C9B38 /* AppDelegate.swift */,
+				FAD71B02263708A3006C9B38 /* SceneDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		FAD71B17263708D0006C9B38 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAD71B04263708A3006C9B38 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FAD71B19263708DD006C9B38 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FAD71B06263708A3006C9B38 /* Main.storyboard */,
+				FAD71B0B263708A5006C9B38 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FAD71B1B263708EB006C9B38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAD71B09263708A5006C9B38 /* Assets.xcassets */,
+				FAD71B0E263708A5006C9B38 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R242LK7DMS;
-				INFOPLIST_FILE = ToDoList/Info.plist;
+				INFOPLIST_FILE = ToDoList/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ArtemBazhanov.ToDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R242LK7DMS;
-				INFOPLIST_FILE = ToDoList/Info.plist;
+				INFOPLIST_FILE = ToDoList/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ArtemBazhanov.ToDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
