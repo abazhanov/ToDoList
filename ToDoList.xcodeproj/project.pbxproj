@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A8E56C3263866DD005D5977 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8E56C2263866DD005D5977 /* LogIn.storyboard */; };
 		FAD71B01263708A3006C9B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD71B00263708A3006C9B38 /* AppDelegate.swift */; };
 		FAD71B03263708A3006C9B38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD71B02263708A3006C9B38 /* SceneDelegate.swift */; };
 		FAD71B05263708A3006C9B38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD71B04263708A3006C9B38 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A8E56C2263866DD005D5977 /* LogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
 		FAD71AFD263708A3006C9B38 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD71B00263708A3006C9B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD71B02263708A3006C9B38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				FAD71B06263708A3006C9B38 /* Main.storyboard */,
 				FAD71B0B263708A5006C9B38 /* LaunchScreen.storyboard */,
+				0A8E56C2263866DD005D5977 /* LogIn.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A8E56C3263866DD005D5977 /* LogIn.storyboard in Resources */,
 				FAD71B0D263708A5006C9B38 /* LaunchScreen.storyboard in Resources */,
 				FAD71B0A263708A5006C9B38 /* Assets.xcassets in Resources */,
 				FAD71B08263708A3006C9B38 /* Main.storyboard in Resources */,
